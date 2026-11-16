@@ -3,8 +3,7 @@
 
 Este projeto nasceu da ideia de aprofundar meus estudos em análise de dados e SQL. Assim como fiz no meu projeto anterior de e-commerce, criei um cenário simulado — desta vez de uma plataforma de streaming — para praticar a extração e o cálculo de métricas de negócio usando Python conectado a um banco de dados relacional.
 
--- O cenário e o raciocínio
-Para que as análises fizessem sentido, modelei o banco do zero dividindo os dados em quatro tabelas principais: clientes, planos, assinaturas e pagamentos.
+-- O cenário e o raciocínio para que as análises fizessem sentido, foi modelar o banco do zero dividindo os dados em quatro tabelas principais: clientes, planos, assinaturas e pagamentos.
 
 Com essa base estruturada, busquei responder às perguntas mais comuns de uma operação SaaS:
 
@@ -14,7 +13,7 @@ Com essa base estruturada, busquei responder às perguntas mais comuns de uma op
  LTV: Qual o valor estimado que um cliente deixa na empresa ao longo do tempo?
  Visão geral: Receita total acumulada e proporção de pagamentos efetivamente pagos.
 
-Obs: Como os dados vêm de um banco estático que eu mesmo criei, os cálculos funcionam como um retrato atual da operação. Sei que no dia a dia de empresas maiores essas métricas exigem histórico temporal e análises de coorte mais complexas, mas o foco aqui foi dominar a lógica relacional e matemática por trás delas.
+Como os dados vêm de um banco estático que eu mesmo criei, os cálculos funcionam como um retrato atual da operação. Sei que no dia a dia de empresas maiores essas métricas exigem histórico temporal e análises de coorte mais complexas, mas o foco aqui foi dominar a lógica relacional e matemática por trás delas.
 
 -- Ferramentas utilizadas e o porquê de cada uma
 
