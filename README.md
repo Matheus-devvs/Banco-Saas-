@@ -7,10 +7,9 @@ Este projeto nasceu da ideia de aprofundar meus estudos em análise de dados e S
 
 Com essa base estruturada, busquei responder às perguntas mais comuns de uma operação SaaS:
 
- MRR: Quanto entra de receita recorrente considerando apenas os clientes ativos?
- Taxa de Churn: Qual a porcentagem de cancelamentos e quanto dinheiro isso representa?
- ARPU: Qual a receita média gerada por cada assinante ativo?
- LTV: Qual o valor estimado que um cliente deixa na empresa ao longo do tempo?
+ MRR total ativo: Quanto entra de receita recorrente considerando apenas os clientes ativos?
+ "MRR perdido"(Receita perdida por cancelamento): Quanto perdemos de receita em relação assinaturas canceladas ?
+ ARPU total: Qual a receita média gerada por cada assinante ativo?
  Visão geral: Receita total acumulada e proporção de pagamentos efetivamente pagos.
 
 Como os dados vêm de um banco estático que eu mesmo criei, os cálculos funcionam como um retrato atual da operação. Sei que no dia a dia de empresas maiores essas métricas exigem histórico temporal e análises de coorte mais complexas, mas o foco aqui foi dominar a lógica relacional e matemática por trás delas.
